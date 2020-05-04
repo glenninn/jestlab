@@ -1,0 +1,21 @@
+{
+  "name": "testjest",
+  "version": "1.0.0",
+  "description": "Sample Lab showing how to use Jest Testing framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage --watchAll"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^25.5.4"
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/glenninn/jestlab.git"
+  },
+  "jest": {
+    "verbose": true
+  }
+}
